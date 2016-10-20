@@ -15,9 +15,13 @@
       "prefix": "app",
       "mobile": false,
       "styles": [
+        "../node_modules/designmodo-flat-ui/dist/css/flat-ui.css",
         "styles.css"
       ],
-      "scripts": [],
+      "scripts": [
+        "../node_modules/designmodo-flat-ui/dist/js/vendor/jquery.min.js",
+        "../node_modules/designmodo-flat-ui/dist/js/flat-ui.js"
+      ],
       "environments": {
         "source": "environments/environment.ts",
         "dev": "environments/environment.ts",
